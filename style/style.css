@@ -10,14 +10,26 @@
 *{
     font-family: "Azeret Mono", monospace;
     margin: 0;
-    box-sizing: border-box;
+    
+}
+/* some common class */
+.font{
+    color:#0D1321 ;
+    
+    
+}
+.common_button{
+    font-weight: 600px;
+    font-size: 20px;
+    padding: 12px 20px;
+    
 }
 /* Banner style */
 .banner{
     width: 1440px;
     height: 652px;
     background-image: url(../assets/Hero-bg.png);
-    border: 2px solid red ;
+    
     margin: 0px auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -53,3 +65,52 @@
     font-size: 20px;
     font-weight: 600px;
 }
+/* end of banner style */
+/* why starting section style */
+.why_section{
+    max-width: 1440px;
+    margin: 75px auto;
+}
+.why_container{
+    max-width: 946px;
+    
+    text-align: center;
+    margin: 0px auto;
+    padding: 80px 97px;
+    
+    
+
+}
+.why_description{
+    text-align: center;
+    /* margin-bottom: 40px; */
+    
+}
+.why_title{
+    font-size: 32px;
+    font-weight: bolder;
+    padding-bottom: 24px;
+}
+/* change the world part */
+.world{
+    display: flex;
+    margin: 40px  0px;
+    padding-top: 40px;
+    justify-content: space-between;
+}
+.about{
+    text-align: left;
+}
+.about_title{
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 26px;
+}
+.des{
+    max-width: 468px;
+    line-height: 26px;
+    text-align: left;
+    margin: 16px 0px 32px 0px;
+}
+
