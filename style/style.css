@@ -24,6 +24,24 @@
     padding: 12px 20px;
     
 }
+/* nav bar */
+.nav_div{
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto;
+    padding: 40px;
+}
+.name{
+    font-weight: bolder;
+    font-size: 28px;
+}
+.nav_but{
+    font-size: 20px;
+    font-weight: 600px;
+    padding: 17px 24px;
+    border-radius: 8px;
+}
 /* Banner style */
 .banner{
     width: 1440px;
@@ -91,6 +109,9 @@
     font-weight: bolder;
     padding-bottom: 24px;
 }
+.why_des{
+    line-height: 26px;
+}
 /* change the world part */
 .world{
     display: flex;
@@ -130,6 +151,7 @@
     text-align: center;
     margin: 0px auto;
     padding-bottom: 48px;
+    line-height: 26px;
 }
 .video_link{
     padding: 32px;
@@ -140,6 +162,8 @@ iframe{
 }
 /* inspiration section end */
 /* Target section start */
+
+
 /* current_target_title_subtitle */
 .current_div{
     width: 1140px;
@@ -162,6 +186,7 @@ iframe{
 
 .current_target_subtitle{
     margin: 24px 0px 38px 0px;
+    line-height: 26px;
 }
 /* language section */
 .about_lang{
@@ -204,6 +229,53 @@ iframe{
 }
 /* current target section end */
 /* next target section start */
+.next_target_title_subtitle{
+    max-width: 946px;
+    margin: 111px auto 48px;
+
+}
+.next_target_title{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+}
+.next_target_subtitle{
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 24px;
+}
+/* title subtitle end */
+.skill{
+    
+    display: flex;
+    justify-content: space-between;
+    border: .5px solid rgba(0, 0, 0, .2);
+    margin-bottom: 24px;
+    border-radius: 16px;
+    padding: 40px;
+}
+.skill_info{
+    max-width: 941px;
+    height: 139px;
+    padding-left: 24px;
+    
+    
+}
+.skill>img{
+    height: 108px;
+    margin: auto;
+}
+.skill_title{
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+.skill_subtitle{
+    font-size: 16px;
+    margin-bottom: 24px;
+    line-height: 26px;
+}
+
 /* next target section end */
 /* support section start */
 .support{
@@ -254,3 +326,20 @@ input{
 }
 
 /* support section end */
+/* footer section start */
+.footer_section{
+    max-width: 1140px; 
+    display: flex; 
+    justify-content: space-between;
+    margin: 80px auto;
+    padding:32px ;
+}
+.img{
+    width: 157px;
+    height: 36px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_title{
+    margin: auto 0px;
+}
