@@ -83,7 +83,7 @@
 }
 .why_description{
     text-align: center;
-    /* margin-bottom: 40px; */
+
     
 }
 .why_title{
@@ -113,4 +113,92 @@
     text-align: left;
     margin: 16px 0px 32px 0px;
 }
+/* why section end */
+/* inspiration section start */
+.inspiration{
+    max-width: 1140px;
+    
+    margin: 90px auto
+}
+.inspiration_title{
+    font-size: 32px;
+    font-weight: bolder;
+    padding-bottom: 24px;
+}
+.title_des{
+    max-width: 852px;
+    text-align: center;
+    margin: 0px auto;
+    padding-bottom: 48px;
+}
+.video_link{
+    padding: 32px;
 
+}
+iframe{
+    border-radius: 20px;
+}
+/* inspiration section end */
+/* Target section start */
+/* current_target_title_subtitle */
+.current_div{
+    width: 1140px;
+    height: 460px;
+}
+.target{
+    width: 1140px;
+    
+    margin: 151px auto;
+}
+.current_target_title_subtitle{
+    max-width: 852px;
+    text-align: center;
+    margin: 0px auto ;
+}
+.current_target_title{
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.current_target_subtitle{
+    margin: 24px 0px 38px 0px;
+}
+/* language section */
+.about_lang{
+    display: flex;
+}
+.html{
+    width: 364px;
+    background-color: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+    border-radius: 16px;
+}
+.css{
+    width: 364px;
+    background-color: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+    margin: 0px 24px;
+    border-radius: 16px;
+}
+.java{
+    width: 364px;
+    background-color: rgba(255, 223, 0, 0.05);
+    padding: 35px;
+    border-radius: 16px;
+}
+
+.lang_title{
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 24px 0px 8px 0px;
+}
+.lang_para{
+    font-size: smaller;
+    margin-bottom: 24px;
+    height: 50px;
+}
+.learn_more{
+    
+    color: black;
+    font-weight: bold;
+}
